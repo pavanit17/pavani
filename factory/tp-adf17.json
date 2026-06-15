@@ -1,0 +1,15 @@
+{
+	"name": "tp-adf17",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4946b322-903e-441c-ad96-9d352bb7dd80",
+		"tenantId": "77fdfffe-1061-4ace-be75-e3f56b440429"
+	}
+}
