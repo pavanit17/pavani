@@ -1,0 +1,19 @@
+{
+	"name": "DS_gen2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_gen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Orc",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "raw"
+			},
+			"enablePhysicalSchema": true
+		},
+		"schema": []
+	}
+}
